@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<config>
+
+	<!-- setting up module & version -->
+	<modules>
+		<Inkatia_Customregistration>
+			<version>0.0.1</version>
+		</Inkatia_Customregistration>
+	</modules>
+	
+	<global>
+		<fieldsets>
+            <customer_account>
+                <occupation><create>1</create><update>1</update></occupation>
+                <jobtitle><create>1</create><update>1</update></jobtitle>
+            </customer_account>
+        </fieldsets>
+		<helpers>
+			<class>Inkatia_Customregistration_Helper</class>
+		</helpers>
+		<models>
+			<class>Inkatia_Customregistration_Model</class>
+		</models>
+		<resources>
+			<customregistration_setup>
+				<setup>
+					<module>Inkatia_Customregistration</module>
+					<class>Inkatia_Customregistration_Model_Entity_Setup</class>
+				</setup>
+			</customregistration_setup>
+		</resources>
+	</global>
+</config>

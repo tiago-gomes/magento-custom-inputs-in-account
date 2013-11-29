@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<config>
+   	<!--  Register the Module -->
+     <modules>
+        <Inkatia_Customregistration>
+            <active>true</active>
+            <codePool>local</codePool>
+        </Inkatia_Customregistration>
+     </modules>
+</config>
